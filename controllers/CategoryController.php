@@ -20,7 +20,7 @@ class CategoryController extends Controller
                 'class' =>AccessControl::className(),
                 'rules' =>[
                     [
-                        'allow' => trsadue,
+                        'allow' => true,
                         'actions' => ['index','create','update','delete'],
                         'roles' => ['ManageCategory'],
                     ],
