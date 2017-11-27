@@ -19,6 +19,7 @@ use yii\console\Controller;
  */
 class HelloController extends Controller
 {
+    //bello
     /**
      * This command echoes what you have entered as the message.
      * @param string $message the message to be echoed.
